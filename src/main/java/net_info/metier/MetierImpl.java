@@ -1,5 +1,6 @@
 package net_info.metier;
 
+import net_info.dao.DaoImpl;
 import net_info.dao.IDao;
 
 public class MetierImpl implements IMetier{
