@@ -19,4 +19,8 @@ public class MetierImpl implements IMetier{
         double res = t * 2 + (t * t)/3 ;
         return res;
     }
+
+    public void setDao(IDao dao){
+        this.dao = dao;
+    }
 }
