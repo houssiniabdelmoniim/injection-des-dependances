@@ -22,6 +22,6 @@ public class Pres2 {
         //Method setDao = cMetier.getDeclaredMethod("setDao" ,IDao.class);
         //setDao.invoke(metier, d);
 
-        System.out.println("RES=" +metier.calcul());
+        System.out.println("RES=" +metier.calcul() );
     }
 }
